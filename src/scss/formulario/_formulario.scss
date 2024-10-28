@@ -9,7 +9,7 @@
         }
     }
 
-    &__contenido{
+    &__contenido {
         background-color: v.$primario;
         padding: v.$separacion;
         display: flex;
@@ -18,23 +18,23 @@
 
     }
 
-    &__title{
+    &__title {
         color: v.$blanco;
         text-align: center;
     }
 
-    &__campo{
+    &__campo {
         margin-bottom: 1rem;
     }
 
-    &__label{
+    &__label {
         display: block;
         color: v.$blanco;
         text-transform: uppercase;
         margin: 1rem 0;
     }
 
-    &__input{
+    &__input {
         width: 100%;
         padding: 1.5rem;
         border: none;
@@ -42,10 +42,11 @@
         border-radius: 1rem;
     }
 
-    &__submit{
+    &__submit {
         margin-top: 2rem;
         @include m.boton(v.$secundario, v.$blanco);
-        @include m.tablet {  
+
+        @include m.tablet {
             width: 100%;
         }
     }
